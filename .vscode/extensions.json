@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+      "ms-vscode.vscode-typescript-next",
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint",
+      "msjsdiag.vscode-react-native",
+      "formulahendry.auto-close-tag",
+      "formulahendry.auto-rename-tag",
+      "naumovs.color-highlight",
+      "ritwickdey.liveserver",
+      "ms-vscode.js-debug-nightly",
+      "orta.vscode-jest",
+      "streetsidesoftware.code-spell-checker",
+      "pkief.material-icon-theme"
+    ]
+  }
+  

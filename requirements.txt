@@ -1,0 +1,42 @@
+# ============================================
+# Trinity – Game Development Requirements
+# ============================================
+
+# -------- GAME ENGINE --------
+Unity Editor (2022 LTS or higher)
+Unity Hub
+
+# -------- PROGRAMMING --------
+C# 8.0 or above
+.NET SDK (included with Unity)
+
+# -------- 3D ART & ANIMATION --------
+Blender 3.0+
+Mixamo (for animations – optional)
+Krita / Photoshop (texture painting)
+
+# -------- VERSION CONTROL --------
+Git
+GitHub Desktop (optional)
+Git LFS (Large File Support for textures/models)
+
+# -------- UNITY PACKAGES --------
+Input System
+Cinemachine
+TextMeshPro
+Universal Render Pipeline (URP)
+AI Navigation (NavMesh)
+Timeline
+Unity Shader Graph
+Addressables (for asset management)
+
+# -------- OPTIONAL DEV TOOLS --------
+VS Code + C# Dev Kit
+Unity VS Code Extension
+Plastic SCM (optional)
+
+# -------- BUILD TARGETS --------
+MacOS Build Support
+Windows Build Support
+Android Build Support (optional)
+iOS Build Support (optional)

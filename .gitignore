@@ -1,0 +1,77 @@
+# ========== UNITY ==========
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+Assets/AssetStoreTools*
+
+# Unity auto-generated Jetbrains files
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Unity cache
+sysinfo.txt
+
+# ========== OS SPECIFIC (macOS) ==========
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Thumbnails
+ehthumbs.db
+Thumbs.db
+
+# ========== VS CODE ==========
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ========== BUILD FILES ==========
+*.apk
+*.aab
+*.unitypackage
+
+# ========== LOGS ==========
+*.log
+
+# ========== BACKUP / CRASH FILES ==========
+*.stackdump
+*.pid
+
+# ========== TEXTURE / IMPORTER CACHE ==========
+[Tt]extureCache/
+
+# ========== AUDIO ==========
+*.ogg.import
+*.wav.import
+*.mp3.import
+
+# ========== MODEL IMPORT ==========
+*.fbx.meta
+*.obj.meta
+
+# ========== GENERATED META DATA ==========
+*.meta
+
+# ========== COLLIDER CACHE ==========
+PhysicsCache/
+
+# ========== MISC ==========
+*.orig

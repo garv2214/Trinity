@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Install Backend Dependencies",
+      "type": "shell",
+      "command": "cd backend && npm install"
+    },
+    {
+      "label": "Start Backend",
+      "type": "shell",
+      "command": "cd backend && npm start",
+      "problemMatcher": []
+    },
+    {
+      "label": "Start React Native",
+      "type": "shell",
+      "command": "cd Mobile-app && npm start",
+      "problemMatcher": []
+    },
+    {
+      "label": "Open Unity Project",
+      "type": "shell",
+      "command": "open Trinity-Game"
+    }
+  ]
+}
