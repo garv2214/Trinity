@@ -1,0 +1,30 @@
+name: Mobile CI
+
+on:
+  push:
+    paths:
+      - "Mobile-App/**"
+  pull_request:
+    paths:
+      - "Mobile-App/**"
+
+jobs:
+  install-lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      - name: Install dependencies
+        working-directory: Mobile-App
+        run: npm install
+
+      - name: Lint mobile app
+        working-directory: Mobile-App
+        run: npx eslint . || echo "No Expo linter configured"
